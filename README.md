@@ -25,7 +25,7 @@ exports.handler = function(event, context) {
 };
 ```
 - [Set up Lambda service on AWS](http://docs.aws.amazon.com/lambda/latest/dg/getting-started.html)
-- Zip up your directory (index.js, watermark image, and node_modules) and upload to your AWS Lambda function 
+- Zip up your directory (index.js, watermark image, and node_modules) and upload to your AWS Lambda function
 
 ## Configuration (options)
 - `watermarkImagePath`: The relative path to your image
@@ -34,3 +34,7 @@ exports.handler = function(event, context) {
 
 
 The dest bucket has been updated to the rentburrow processed watermark S3 bucket at path (node_modules/lambda-watermark/lib/lambdaWrapper.js)
+
+
+* IMPORTANT! when you zip the file, make sure to recursive zip.
+(eg. zip -r watermark.zip *)

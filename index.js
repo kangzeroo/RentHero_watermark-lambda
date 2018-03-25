@@ -2,8 +2,8 @@
 var LambdaWatermark = require('lambda-watermark');
 
 var options = {
-  watermarkImagePath: './rhDesktop.png',
-  relativeSize: 0.5,
+  watermarkImagePath: './renthero.png',
+  relativeSize: 0.8,
   opacity: 30
 };
 
