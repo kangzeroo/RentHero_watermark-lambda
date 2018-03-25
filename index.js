@@ -2,7 +2,7 @@
 var LambdaWatermark = require('lambda-watermark');
 
 var options = {
-  watermarkImagePath: './rbdesktop.png',
+  watermarkImagePath: './rhDesktop.png',
   relativeSize: 0.5,
   opacity: 30
 };
